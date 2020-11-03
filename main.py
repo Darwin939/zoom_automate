@@ -3,6 +3,7 @@ import os
 import pyautogui
 import time
 from datetime import datetime
+import schedule
 
 
 def signIn(meeting_id,password):
@@ -68,5 +69,4 @@ while True:
         print('signed in')
         break
 """
-signIn("3122896402","ZWl1NW0vNzNvMmRYMFFCRWdadjk1dz09")        
-        
+
