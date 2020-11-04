@@ -29,5 +29,3 @@ A python script that automatically joins a zoom meeting based on your timetable.
 
 ## License & Copyright
 
-© 2020 <b>Sunil Aleti</b><br>
-Licensed under <a href="https://github.com/aletisunil/Automating_Zoom/blob/master/LICENSE">MIT License</a>
