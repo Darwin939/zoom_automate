@@ -4,7 +4,8 @@ import pyautogui
 import time
 from datetime import datetime
 import schedule
-
+import subprocess
+import psutil,os
 
 def signIn(meeting_id,password):
 
@@ -48,6 +49,13 @@ def signIn(meeting_id,password):
     pyautogui.moveTo(joinmeeting)
     pyautogui.click()
     time.sleep(1)
+
+def terminate_zoom():
+    """
+    terminate zoom task
+    """
+    
+    os.system("taskkill /im zoom.exe")
 
 # df = pd.read_excel('timings.xlsx',index=False)
 
